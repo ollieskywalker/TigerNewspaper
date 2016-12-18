@@ -1,9 +1,15 @@
-<resources>
-    <string name="app_name">TigerNewspaper</string>
-
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
-
+<resources xmlns:android="http://schemas.android.com/tools">
+    <string name="app_name">Tiger Newspaper</string>
+    <string name="news">News</string>
+    <string name="recent">Recent</string>
+    <string name="featured">Featured</string>
+    <string-array name="icons">
+        <item android:icon="@drawable/ic_one" android:id="@+id/nav_first_fragment" android:layout_height="wrap_content" android:layout_width="wrap_content" android:title="News" />
+        <item android:icon="@drawable/ic_featured" android:id="@+id/nav_second_fragment" android:layout_height="wrap_content" android:layout_width="wrap_content" android:title="Featured" />
+        <item android:icon="@drawable/ic_opinion" android:id="@+id/nav_third_fragment" android:layout_height="wrap_content" android:layout_width="wrap_content" android:title="Opinion" />
+        <item android:icon="@drawable/ic_sports" android:id="@+id/nav_fourth_fragment" android:layout_height="wrap_content" android:layout_width="wrap_content" android:title="Sports" />
+    </string-array>
+    <string name="title_activity_tabs">Tabs</string>
     <string name="action_settings">Settings</string>
-    <string name="title_activity_post">PostActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
 </resources>
